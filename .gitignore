@@ -1,0 +1,15 @@
+#ignore non-useful VS-generated files
+*.ipch
+.vs/*
+.vscode/*
+*.pdb
+*.log
+#Ignore files besides main cpp
+ConnectFour.*
+!ConnectFour.cpp
+#Ignore debug files
+Debug/*
+#Ignore release files except executable
+Release/*
+!Release/ConnectFour.exe
+ConnectFour/x64*
